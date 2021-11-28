@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks Reward Page</title>
+    <link rel="stylesheet" href="./output.css" />
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-archivo">
+    <header>
+      <nav class="container py-4 my-4 flex justify-between">
+        <ul class="flex items-center gap-10">
+          <img src="../img/Contrast Logo.svg" alt="" />
+          <li class="text-lg cursor-pointer md:flex hidden text-gray">
+            Browse
+          </li>
+        </ul>
+
+        <ul class="flex md:flex hidden gap-10">
+          <input
+            class="
+              bg-search
+              outline-none
+              text-lg text-gray
+              w-64
+              p-4
+              h-14
+              rounded-md
+            "
+            type="search"
+            name=""
+            id=""
+            value="Search"
+          />
+          <button class="btn-blue">Submit Resource</button>
+        </ul>
+
+        <img class="md:hidden flex" src="../img/Hamburger Menu.svg" alt="" />
+      </nav>
+    </header>
+
+    <!-- Header Section Ends -->
+
+    <section class="hero">
+      <div
+        class="
+          container
+          grid grid-cols-1
+          md:grid-cols-2
+          mt-9
+          pt-19
+          items-center
+          gap-x-40
+        "
+      >
+        <div class="">
+          <h2 class="md:text-6xl text-3xl font-bold mb-4">
+            Design resources for developers.
+          </h2>
+          <p class="text-lg text-gray mb-4">
+            Explore a collection of 3400+ curated design resources, both free
+            and paid, developers can use to create landing pages quicker.
+          </p>
+          <button class="btn-blue">Submit Resource</button>
+
+          <div class="mt-4 pt-4">
+            <p class="text-base text-gray">Used by individuals in</p>
+            <div class="flex gap-6 pt-4">
+              <img src="../img/Google Logo.svg" alt="" />
+              <img src="../img/Discord Logo.svg" alt="" />
+              <img src="../img/Slack Logo.svg" alt="" />
+              <img src="../img/Twitter Logo.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="hidden md:flex">
+          <img src="../img/Hero Image.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero Section Ends -->
+
+    <section class="lists">
+      <div
+        class="
+          container
+          grid grid-cols-1
+          md:grid-cols-3
+          gap-6
+          mt-12
+          pt-12
+          mb-12
+          pb-12
+        "
+      >
+        <div class="border-solid border-2 border-card rounded-sm p-4">
+          <img class="mb-4" src="../img/Google Fonts.svg" alt="" />
+          <p class="mb-4 text-lg text-black font-bold">Google Fonts</p>
+          <p class="mb-6 text-lg text-gray">
+            Making the web more beautiful, fast, and open through great
+            typography.
+          </p>
+          <a class="text-lg text-black font-bold underline" href=""
+            >Visit Resource →</a
+          >
+        </div>
+
+        <div class="border-solid border-2 border-card rounded-sm p-4">
+          <img class="mb-4" src="../img/MyFonts Logo.svg" alt="" />
+          <p class="mb-4 text-lg text-black font-bold">MyFonts</p>
+          <p class="mb-6 text-lg text-gray">
+            The #1 place to download great @font-face webfonts and desktop
+            fonts.
+          </p>
+          <a class="text-lg text-black font-bold underline" href=""
+            >Visit Resource →</a
+          >
+        </div>
+
+        <div class="border-solid border-2 border-card rounded-sm p-4">
+          <img class="mb-4" src="../img/FontSquirrel Logo.svg" alt="" />
+          <p class="mb-4 text-lg text-black font-bold">Font Squirrel</p>
+          <p class="mb-6 text-lg text-gray">
+            Font Squirrel scours the internet for high quality and legitimately
+            free fonts.
+          </p>
+          <a class="text-lg text-black font-bold underline" href=""
+            >Visit Resource →</a
+          >
+        </div>
+
+        <div class="border-solid border-2 border-card rounded-sm p-4">
+          <img class="mb-4" src="../img/Adobe Fonts Logo.svg" alt="" />
+          <p class="mb-4 text-lg text-black font-bold">Adobe Fonts</p>
+          <p class="mb-6 text-lg text-gray">
+            Thousands of beautiful fonts to designers every day by leading
+            foundries.
+          </p>
+          <a class="text-lg text-black font-bold underline" href=""
+            >Visit Resource →</a
+          >
+        </div>
+
+        <div class="border-solid border-2 border-card rounded-sm p-4">
+          <img class="mb-4" src="../img/FontSpark Logo.svg" alt="" />
+          <p class="mb-4 text-lg text-black font-bold">SparkFont</p>
+          <p class="mb-6 text-lg text-gray">
+            Helping designers discover the perfect font for their next design
+            project.
+          </p>
+          <a class="text-lg text-black font-bold underline" href=""
+            >Visit Resource →</a
+          >
+        </div>
+
+        <div class="border-solid border-2 border-card rounded-sm p-4">
+          <img class="mb-4" src="../img/Better Web Type Logo.svg" alt="" />
+          <p class="mb-4 text-lg text-black font-bold">BetterWebType</p>
+          <p class="mb-6 text-lg text-gray">
+            A web typography course for web designers and web developers by
+            Matej Latin.
+          </p>
+          <a class="text-lg text-black font-bold underline" href=""
+            >Visit Resource →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Lists Section Ends -->
+
+    <section class="form mb-12 pb-12">
+      <div
+        class="
+          container
+          bg-blue
+          p-8
+          grid grid-cols-1
+          md:grid-cols-2
+          items-center
+          gap-12
+          rounded
+          h-sm
+        "
+      >
+        <div>
+          <h2 class="mb-4 text-2xl text-white font-bold">
+            Receive design resources every week. Straight to your inbox.
+          </h2>
+          <p class="mb-4 text-lg text-overlay">
+            Discover dozens of design resources each week from educational
+            material to illustrations.
+          </p>
+          <div class="flex gap-4 mb-4">
+            <input
+              class="
+                bg-search
+                outline-none
+                text-base text-gray
+                w-64
+                p-4
+                h-14
+                rounded-md
+              "
+              type="email"
+              name=""
+              id=""
+              placeholder="john@example.com"
+            />
+            <input
+              class="
+                py-4
+                font-semibold
+                px-7
+                rounded-md
+                text-base text-blue
+                bg-overlay
+              "
+              type="submit"
+              value="Subscribe"
+            />
+          </div>
+          <p class="text-base text-overlay">*No spam, unsubscribe anytime.</p>
+        </div>
+
+        <div class="p-8 flex flex-col justify-self-start">
+          <img src="../img/Peeps.png" alt="" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
