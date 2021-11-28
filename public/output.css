@@ -29331,6 +29331,10 @@ video {
   content: none;
 }
 
+.open-menu {
+  display: flex !important;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

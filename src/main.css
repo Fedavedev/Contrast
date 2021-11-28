@@ -12,3 +12,9 @@
         bg-blue;
   }
 }
+
+@layer utilities {
+  .open-menu {
+    display: flex !important;
+  }
+}

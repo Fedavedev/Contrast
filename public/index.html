@@ -44,8 +44,47 @@
           <button class="btn-blue">Submit Resource</button>
         </ul>
 
-        <img class="md:hidden flex" src="./img/Hamburger Menu.svg" alt="" />
+        <img
+          class="md:hidden flex hamburger cursor-pointer"
+          src="./img/Hamburger Menu.svg"
+          alt=""
+        />
       </nav>
+
+      <div
+        class="
+          mobile-menu
+          flex-col
+          items-center
+          gap-y-6
+          bg-overlay
+          max-w-sm
+          rounded-md
+          mx-auto
+          p-4
+          hidden
+        "
+      >
+        <input
+          class="
+            bg-search
+            outline-none
+            text-lg text-gray
+            w-64
+            p-4
+            h-14
+            rounded-md
+            md:hidden
+            block
+          "
+          type="search"
+          name=""
+          id=""
+          value="Search"
+        />
+        <li class="text-lg cursor-pointer md:hidden block text-gray">Browse</li>
+        <button class="btn-blue md:hidden block">Submit Resource</button>
+      </div>
     </header>
 
     <!-- Header Section Ends -->
@@ -255,8 +294,8 @@
           pb-12
         "
       >
-        <div class="md:col-span-3">
-          <img src="./img/Contrast Logo.svg" alt="" />
+        <div class="md:col-span-3 flex flex-col gap-4">
+          <img class="w-32" src="./img/Contrast Logo.svg" alt="" />
           <p>
             Explore a collection of 3400+ curated design resources, both free
             and paid, developers can use to create landing pages quicker.
@@ -302,5 +341,9 @@
         </div>
       </div>
     </footer>
+
+    <!-- jQuery File -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/app.js"></script>
   </body>
 </html>
