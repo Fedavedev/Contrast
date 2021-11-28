@@ -191,7 +191,8 @@
           items-center
           gap-12
           rounded
-          h-sm
+          md:h-sm
+          h-lg
         "
       >
         <div>
@@ -202,7 +203,7 @@
             Discover dozens of design resources each week from educational
             material to illustrations.
           </p>
-          <div class="flex gap-4 mb-4">
+          <div class="md:flex-row flex gap-4 mb-4 flex-col">
             <input
               class="
                 bg-search
@@ -239,5 +240,57 @@
         </div>
       </div>
     </section>
+
+    <!-- Form Section Ends -->
+
+    <footer>
+      <div class="container grid grid-cols-1 md:grid-cols-7 gap-20 mb-12 pb-12">
+        <div class="md:col-span-3">
+          <img src="./img/Contrast Logo.svg" alt="" />
+          <p>
+            Explore a collection of 3400+ curated design resources, both free
+            and paid, developers can use to create landing pages quicker.
+          </p>
+        </div>
+
+        <div class="">
+          <p class="text-lg font-bold text-black mb-4">Resources</p>
+
+          <ul class="text-gray flex flex-col gap-2 text-base">
+            <li><a href="">Fonts</a></li>
+            <li><a href="">illustrations</a></li>
+            <li><a href="">Mockups</a></li>
+            <li><a href="">Icons</a></li>
+            <li><a href="">Books</a></li>
+          </ul>
+        </div>
+
+        <div class="">
+          <p class="text-lg font-bold text-black mb-4">Company</p>
+
+          <ul class="text-gray flex flex-col gap-2 text-base">
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="">
+          <p class="text-lg font-bold text-black mb-4">Support</p>
+
+          <ul class="text-gray flex flex-col gap-2 text-base">
+            <li><a href="">FAQs</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="">
+          <p class="text-lg font-bold text-black mb-4">Sponsor</p>
+
+          <ul class="text-gray flex flex-col gap-2 text-base">
+            <li><a href="">Sponsor Resources</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
