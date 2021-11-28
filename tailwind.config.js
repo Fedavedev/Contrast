@@ -15,7 +15,7 @@ module.exports = {
 
     height: {
       sm: "520px",
-      lg: "1000px",
+      lg: "700px",
     },
 
     container: {
