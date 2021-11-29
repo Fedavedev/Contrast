@@ -1,0 +1,44 @@
+.hamburger-btn {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.line-1,
+.line-2,
+.line-3 {
+  position: absolute;
+  background-color: #272727;
+  width: 35px;
+  height: 4px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+.line-1 {
+  transform: translateY(-8px);
+}
+
+.line-3 {
+  transform: translateY(8px);
+}
+
+.close {
+  background-color: transparent;
+  transform: translateX(-50px);
+}
+
+.open-1 {
+  transform: rotate(45deg);
+}
+
+.open-2 {
+  transform: rotate(-45deg);
+}
